@@ -1,0 +1,144 @@
+#vagasEmpresa .feather{
+    height: 15px;
+    margin-top: -4px;
+}
+
+#vagasEmpresa .titulo .feather{
+    margin-top: 2px;
+    height: 20px;
+}
+#vaga-nova .feather{
+    height: 15px;
+    margin-top: -2px;
+    margin-right: 4px!important;
+}
+.circle{
+    font-size: 14px;
+}
+.verde{
+    color: #2e8b57;
+}
+a{
+    color:#495057;
+}
+a:hover, a:focus{
+    color:#495057;
+}
+.btn-padrao{
+    background: #2e8b57;
+    border-color: #2e8b57;
+    color:white;
+}
+.btn:hover, .btn:focus, .btnInfo:hover, .btnInfo:focus{
+    color:white!important;
+}
+.card.wrapper-login-form { width: 500px; position: fixed; right: 50%; bottom: 50%; transform: translate(50%, 50%); }
+
+.list-group-item.active{
+    background-color: #2e8b57;
+    border-color: #2e8b57;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled), .btn-upload{
+    background: #2e8b57;
+    border-color: #2e8b57;
+    color:white;
+}
+.nav-item .indicator{
+    background:#2e8b57;
+}
+.nav-icon svg:hover, .nav-icon svg:focus{
+    color: #2e8b57;
+}
+
+.select2-container{
+    width: 100%!important;
+}
+.plus-icon i{
+    color: #2e8b57;
+}
+
+/*------------INDEX (USER) -----------*/
+/*------------------------------------*/
+
+/*--------END INDEX (USER) -----------*/
+/*------------------------------------*/
+
+/*------------sidebar-----------------*/
+/*------------------------------------*/
+
+#sidebar, .sidebar-content{
+    background: #2e8b57;
+}
+.sidebar-brand{
+    height: 77.5px;
+    padding: 0;
+    background: white;
+}
+.sidebar-brand img.logo {
+    width: 65%;
+    margin-left: 35px;
+    margin-top: 6px;
+}
+.sidebar-link, a.sidebar-link{
+    background:#2e8b57;
+}
+.sidebar-item.active .sidebar-link:hover, .sidebar-item.active>.sidebar-link{
+    background: linear-gradient(90deg,rgba(110, 221, 59, 0.1),rgba(137, 221, 59, 0.088) 50%,transparent);
+    border-left-color:green;
+}
+.sidebar-link:hover, a.sidebar-link:hover{
+    background: #35b376;
+}
+
+/*----------fim_sidebar---------------*/
+/*------------------------------------*/
+
+/*--------------vagas-----------------*/
+/*------------------------------------*/
+
+.vaga{
+    display: flex;
+    padding: 20px 0 5px;
+    border-bottom: 1px rgba(100,100,100,0.1) solid;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+}
+.vaga .img-externo{
+    width: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.vaga .img-externo img.vaga-img{
+    width:65%;
+    margin: 0 auto;
+    display: block;
+}
+.vaga .vaga-info{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.vaga .vaga-info p{
+    font-size: 16px;
+}
+.img-externo {
+    max-width: 150px;
+}
+
+/*------------fim_vagas---------------*/
+/*------------------------------------*/
+
+/*-------------footer-----------------*/
+/*------------------------------------*/
+
+.list-inline, .list-unstyled{
+    display:none;
+}
+
+/*-----------fim_footer---------------*/
+/*------------------------------------*/
